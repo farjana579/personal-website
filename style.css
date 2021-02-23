@@ -79,17 +79,23 @@ section{
      text-align: center;
      display: block;
      margin-top: 50px;
+     margin-left: 35%;
  }
  .button{
-     text-decoration: none;
-     text-align: center;
-     background-image: linear-gradient(45deg,salmon,tomato);
-     padding: 20px 20px;
-     border-radius: 5px;
- }
- .gmail ::after{
-     content: "/A";
- font-size: 25px;
- display:;
- }
+    text-decoration: none;
+    text-align: center;
+    background-image: linear-gradient(45deg,salmon,tomato);
+    padding: 20px 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+}
+.gmail{
+    font-size: 20px;
+}
+.foot p{
+    text-align: center;
+    font-size: 12px;
+}
   
